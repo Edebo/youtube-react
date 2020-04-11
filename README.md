@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### snapshot with Enzyme
+
+yarn add --dev enzyme enzyme-adapter-react-16 react-test-renderer enzyme-to-json
+
+Jest is already pre-installed in create-react-app 16
+
+enzyme to take snapshots
+jest to compare snapshots
+
+react-test-renderer help render the component to an javascript object instead of the dom
+enzyme-to-json a wrapper that help jest to understand enzyme object
