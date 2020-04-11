@@ -1,11 +1,13 @@
 import React from "react";
 import HeaderNav from "./containers/HeaderNav/HeaderNav";
-import SideBar from "./containers/Sidebar/Sidebar";
+
+import Home from "./containers/Home/Home";
 function App() {
   return (
     <>
       <HeaderNav />
-      <SideBar />
+
+      <Home />
     </>
   );
 }
