@@ -9,14 +9,19 @@ export function Video(props) {
   }
   const embedUrl = `${BASE_EMBED_URL}${props.id}?autoplay=1`;
   return (
-    <iframe
-      title={"video"}
-      width={"560"}
-      height={"315"}
-      src={embedUrl}
-      frameBorder='0'
-      allow='autoplay; encrypted-media'
-      allowFullScreen
-    />
+    <div className='video-container'>
+      <div className='video'>
+        <iframe
+          className='video-player'
+          title={"video"}
+          width={"560"}
+          height={"315"}
+          src={embedUrl}
+          frameBorder='0'
+          allow='autoplay; encrypted-media'
+          allowFullScreen
+        />
+      </div>
+    </div>
   );
 }
