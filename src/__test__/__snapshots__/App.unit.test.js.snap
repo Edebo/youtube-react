@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering the app component 1`] = `
+<Fragment>
+  <AppLayout>
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/watch"
+      />
+    </Switch>
+  </AppLayout>
+</Fragment>
+`;

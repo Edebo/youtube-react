@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing app layout snapshot rendering app layout with a props children 1`] = `
+<div
+  className="app-layout"
+>
+  <HeaderNav />
+  <div>
+    Hello world
+  </div>
+</div>
+`;
+
+exports[`testing app layout snapshot rendering empty app layout 1`] = `
+<div
+  className="app-layout"
+>
+  <HeaderNav />
+</div>
+`;
